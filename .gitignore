@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Real credentials - never commit this. config/secrets.example.php is the
+# safe template that DOES get committed.
+config/secrets.php
+
+# Session storage (auto-created, don't commit session data)
+tmp_sessions/
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local env overrides (if you add one later)
+.env
